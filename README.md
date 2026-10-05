@@ -2,11 +2,21 @@
 
 支援多份 `.docx` 上傳，由 AI 理解章節、續行、專案背景與工作事項。後端依報告日期選用同事項的最新完整版本，保留舊檔獨有事項，直接在最新 Word 的 OOXML 上插入內容。附繁體中文網頁介面、Word 下載及逐事項 JSON 比對紀錄。
 
+## 從 GitHub 下載完整成品
+
+本專案放在私人儲存庫 [frjhong/cg](https://github.com/frjhong/cg)。登入有權限的 GitHub 帳號後，按 **Code → Download ZIP**，即可一次取得程式碼、Maven Wrapper、原始範例、可執行 JAR 及所有彙整成品。
+
+- [彙整 Word](artifacts/彙整週報_1150930.docx)：開啟檔案頁面，按 **Download raw file** 下載。
+- [彙整 PDF](artifacts/彙整週報_1150930.pdf)、[比對紀錄](artifacts/彙整比對紀錄.json)、[排版預覽](artifacts/彙整Word預覽.png)。
+- [所有成品](artifacts/)與[原始 Word 範例](src/test/resources/samples/)。
+
+解壓縮 ZIP 後，進入 `cg-main`；若使用 `git clone https://github.com/frjhong/cg.git`，則進入 `cg`。在該目錄執行下方指令即可。`DELIVERY-MANIFEST.json` 記錄各交付檔案的大小及 SHA-256，可用來核對下載完整性。
+
 ## 環境與 Maven Wrapper
 
 建置需要 **JDK 21**（包含 `javac`），不需另外安裝 Maven。專案附 Apache Maven Wrapper 3.3.4，固定下載並使用 Maven 3.9.9，包含 Windows 啟動檔與 Wrapper JAR。Maven 發行檔以 SHA-256 驗證。首次使用需連線下載 Maven 與專案依賴；範例重播啟動已建置的 JAR 則不需 AI 金鑰或外部 API 連線。
 
-解壓縮專案後，先進入含 `pom.xml` 的 `weekly-report` 目錄。確認 JDK：
+解壓縮專案後，先進入含 `pom.xml` 的專案根目錄。確認 JDK：
 
 ```text
 java -version
