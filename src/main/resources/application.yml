@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:8080}
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB
+  jackson:
+    default-property-inclusion: non_null
+weekly:
+  ai:
+    base-url: ${AI_BASE_URL:https://api.openai.com/v1}
+    api-key: ${AI_API_KEY:}
+    model: ${AI_MODEL:gpt-4.1}
+    fixture: ${AI_FIXTURE:}
+  retention-hours: 24

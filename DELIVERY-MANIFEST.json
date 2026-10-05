@@ -1,0 +1,246 @@
+{
+  "repository": "frjhong/cg",
+  "requiredVisibility": "private",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 54,
+      "sha256": "66e7af2c56aad72a0094ce4045d3d0418dd2f01fd642921c5e62ea345e228114"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 26,
+      "sha256": "b1421dfc39e94b9b1a1a48635292a12044b0547c667db25009eeaa4d66dc8739"
+    },
+    {
+      "path": ".mvn/wrapper/maven-wrapper.jar",
+      "bytes": 63093,
+      "sha256": "4e2fbf6554bc8a4702cdfdd3bef464f423393d784ddbb037216320ce55d5e4e1"
+    },
+    {
+      "path": ".mvn/wrapper/maven-wrapper.properties",
+      "bytes": 444,
+      "sha256": "b474baadd828de4c1891cd54c5b44c1fccb1fd2d81ecd867c49bd3fca40f6cb1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11879,
+      "sha256": "7ded5ab13a852ca9e702d972071aa498bb18857d8d6c0cb8b66a6f42019c1034"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3513,
+      "sha256": "483376b5e21830d3782f742f3a5bc9bc9dfe7c788a860d12dc92d4aba60bfe88"
+    },
+    {
+      "path": "artifacts/0930.pdf",
+      "bytes": 147663,
+      "sha256": "b75fb298d537b6e819daedb2a259c657a94b41ce9447b2acedc2b37633f2ab87"
+    },
+    {
+      "path": "artifacts/0930_1.png",
+      "bytes": 194663,
+      "sha256": "e4b96afc50ba4a368f3b7bcddf6e3c472b71c78f3cc916921ba123577b8404d7"
+    },
+    {
+      "path": "artifacts/0930_2.png",
+      "bytes": 29021,
+      "sha256": "03dba99be33deb4c5efa3f0dfc75815deb2f32f0bb70ddd9b9df3fd9ba6162dc"
+    },
+    {
+      "path": "artifacts/0930_排版文字.txt",
+      "bytes": 2125,
+      "sha256": "a30ce96bbf478a5e43b65ff9cd572c54e9e9616d400bce4566b194f883ecf45b"
+    },
+    {
+      "path": "artifacts/browser-validation.json",
+      "bytes": 163,
+      "sha256": "dbf96cde8b1c30c78b581d6c26b4105f6800bd0a1209128e396e9dcc0470237f"
+    },
+    {
+      "path": "artifacts/validation.json",
+      "bytes": 1441,
+      "sha256": "446f2d8b0c8dead525e218e4201cd21857780412253659d71cf212674706f28a"
+    },
+    {
+      "path": "artifacts/weekly-report-1.0.0.jar",
+      "bytes": 22605246,
+      "sha256": "35506a83863a96b95b9d88b5007b5099741a7e50cb9e9a8dd81a51facfd442e2"
+    },
+    {
+      "path": "artifacts/介面_手機.png",
+      "bytes": 336109,
+      "sha256": "8bcf39313fbfd78549401845875ba39dc185af6f9d3e9187aab8ca8c6966193f"
+    },
+    {
+      "path": "artifacts/介面_桌面.png",
+      "bytes": 386118,
+      "sha256": "8363cae190fc68b03820619f8f6f042430e498d95e72015a45b05b5406d0dc24"
+    },
+    {
+      "path": "artifacts/彙整Word預覽.png",
+      "bytes": 354061,
+      "sha256": "08eaf02171ba695e1340af87bf4fa19a0b928f3f51fd30ea7f40233ede42ffb7"
+    },
+    {
+      "path": "artifacts/彙整比對紀錄.json",
+      "bytes": 17971,
+      "sha256": "51b081612bd20194047c9ea131f65b68827a3f3983554c5c7e688b112aa34f17"
+    },
+    {
+      "path": "artifacts/彙整週報_1150930.docx",
+      "bytes": 121660,
+      "sha256": "1e361f341aff7716538efabe791ae68efae1ac93ebfd04c7e1613145185fda8b"
+    },
+    {
+      "path": "artifacts/彙整週報_1150930.pdf",
+      "bytes": 218332,
+      "sha256": "432532c00ea9bde7bc3e7c072d44aeab2e668cc5e340cb7f2d52e58f0e3afab3"
+    },
+    {
+      "path": "artifacts/彙整週報_1150930_1.png",
+      "bytes": 192197,
+      "sha256": "7375a7103d36b5ac18e2d06b4415c62550f576b3a4098961003ac7969fd80d40"
+    },
+    {
+      "path": "artifacts/彙整週報_1150930_2.png",
+      "bytes": 240338,
+      "sha256": "61c7f4acddd6db633704634acda15fe300c2e33fc0272305bdf51d441ff4a98a"
+    },
+    {
+      "path": "artifacts/彙整週報_1150930_3.png",
+      "bytes": 11580,
+      "sha256": "831df3012c82ce50fb8935b3efd24d2e67477661734bbe439069ea079e047a3d"
+    },
+    {
+      "path": "artifacts/彙整週報_1150930_排版文字.txt",
+      "bytes": 4267,
+      "sha256": "1f1ddc0eb81d559d9addfd513395733de8a29c132b3352eebf0b16d6acd7d4a0"
+    },
+    {
+      "path": "artifacts/瀏覽器下載驗證.docx",
+      "bytes": 121660,
+      "sha256": "5493fe34d7d6567c247cca5d4205736d86809b710b9f2f60b53b1b476e15ee3d"
+    },
+    {
+      "path": "artifacts/瀏覽器比對紀錄.json",
+      "bytes": 20712,
+      "sha256": "96c2ed4e4ba456b61b9f56cd29a0b6558f5b57566f1adfb35123ad27db3aea4c"
+    },
+    {
+      "path": "mvnw",
+      "bytes": 11336,
+      "sha256": "07e72ac35ecf8c24db67498fc6a9a8e7c64b31ab3798a7119fe73fb7cd6c0331"
+    },
+    {
+      "path": "mvnw.cmd",
+      "bytes": 7903,
+      "sha256": "8c720db91d96ba5f67afa4083726b20eb4be399d86bb859e09eb67436bb230f5"
+    },
+    {
+      "path": "pom.xml",
+      "bytes": 1132,
+      "sha256": "d3cea3c5085028e40fd33299fd849327861bb01f046a39167d96fa46c34fbaaf"
+    },
+    {
+      "path": "scripts/browser_check.py",
+      "bytes": 2479,
+      "sha256": "05cd259e55419f17c5a7d5beda7f87e2b4d4542d861ff7bdb9c97b51ba67b9f2"
+    },
+    {
+      "path": "scripts/run.cmd",
+      "bytes": 1765,
+      "sha256": "e9cc24dce67e8a343bd3456bea3be2f619dad164e659f02afe7be284fa1550ef"
+    },
+    {
+      "path": "scripts/run.sh",
+      "bytes": 1579,
+      "sha256": "46f8ea6d7a92399d668f13c619d1d1716837e06051452021d2ce33a721729071"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/AiPlanner.java",
+      "bytes": 6277,
+      "sha256": "f5cc737226a851fc54f08f08a6bf379a0dd78453b907fde39d32d398027eaf99"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/MergePlan.java",
+      "bytes": 3212,
+      "sha256": "44b9fad537b4330f71f895343e1797557c56da3169791edde57bba456618cde0"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/MergeService.java",
+      "bytes": 9958,
+      "sha256": "c425cafcd88c973cc130c5c84e6f29de90674ce1e6119c1ed2a6901ad2efece9"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/PartImporter.java",
+      "bytes": 11301,
+      "sha256": "3030eecef17763a64456983f90598d9fd0c0191e1db9e194c9d291943baa0f02"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/ReportController.java",
+      "bytes": 4826,
+      "sha256": "950c1bf4de32db4944e1d0a4359681d5447654f93539d509daf84f82385464d7"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/WeeklyApplication.java",
+      "bytes": 394,
+      "sha256": "89ff5e9f267b077ba2a8dc1c3679c1db198cfb4660c02e3baf300aee8df640c0"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/WordPackage.java",
+      "bytes": 5148,
+      "sha256": "7c16f460f6b027b3cc40115f93012911a8f66cdc97a0c5e5aa1bddb06b4956d3"
+    },
+    {
+      "path": "src/main/java/com/example/weekly/Xml.java",
+      "bytes": 2981,
+      "sha256": "27519d572544e359fdc14e20167926ec39940fc6296f4b1bee0875ddd25d16a8"
+    },
+    {
+      "path": "src/main/resources/application.yml",
+      "bytes": 348,
+      "sha256": "423b91b69ad8080ac4bd221292ca65e31e08d090d534ce1cd84beff95fe41f97"
+    },
+    {
+      "path": "src/main/resources/static/index.html",
+      "bytes": 7746,
+      "sha256": "fdea6880b17d0ccbde2a194bc7c46fbcd291200e4fbf6e5026a9631db3f7520b"
+    },
+    {
+      "path": "src/test/java/com/example/weekly/AiClientTest.java",
+      "bytes": 2283,
+      "sha256": "b8f017dd2723fd967bdac4e7f347e746d97c330c4db1a1a5f5d8859cbb01eb92"
+    },
+    {
+      "path": "src/test/java/com/example/weekly/ApiTest.java",
+      "bytes": 2523,
+      "sha256": "79f925d82f95491225187eb0cec97dccdc0424e786785f24ff3fa33b03151106"
+    },
+    {
+      "path": "src/test/java/com/example/weekly/ResourceImportTest.java",
+      "bytes": 5564,
+      "sha256": "ef4064b58dc5e5b518677283cb752e0483be90b72efba54352be7a551e8ad3e4"
+    },
+    {
+      "path": "src/test/java/com/example/weekly/SampleMergeTest.java",
+      "bytes": 7171,
+      "sha256": "54aa0ff9c3ca80c6c9d88845c92cdc1934248f0233da7ebb445e52489b5551f8"
+    },
+    {
+      "path": "src/test/resources/sample-plan.json",
+      "bytes": 11775,
+      "sha256": "ef32a8ed13845d13978e8bb0a731e09d4f8c4b00d86c3ec4f120f158a288e464"
+    },
+    {
+      "path": "src/test/resources/samples/0916.docx",
+      "bytes": 123334,
+      "sha256": "65ff52bbed7a7cf5ba5f4708e9b567ecb6ee3e229904cb5fae2ce3add5e82ea0"
+    },
+    {
+      "path": "src/test/resources/samples/0930.docx",
+      "bytes": 122711,
+      "sha256": "c0d42ba26a2ccbe42ee50100052a6ca90a785a9017feb419e85ffaa08fe9241a"
+    }
+  ]
+}

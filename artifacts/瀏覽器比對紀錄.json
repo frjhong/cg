@@ -1,0 +1,766 @@
+{
+  "template": {
+    "sha256": "c0d42ba26a2ccbe42ee50100052a6ca90a785a9017feb419e85ffaa08fe9241a",
+    "filename": "0930.docx",
+    "date": "2026-09-30"
+  },
+  "mode": "fixture-replay",
+  "inputFiles": [
+    {
+      "sha256": "c0d42ba26a2ccbe42ee50100052a6ca90a785a9017feb419e85ffaa08fe9241a",
+      "filename": "0930.docx",
+      "date": "2026-09-30"
+    },
+    {
+      "sha256": "65ff52bbed7a7cf5ba5f4708e9b567ecb6ee3e229904cb5fae2ce3add5e82ea0",
+      "filename": "0916.docx",
+      "date": "2026-09-16"
+    }
+  ],
+  "itemCount": 27,
+  "duplicateGroups": 2,
+  "oldOnlyItems": 14,
+  "insertedBlocks": 22,
+  "removedTrailingEmptyParagraphs": 1,
+  "decisions": [
+    {
+      "id": "firewall",
+      "title": "OA 防火牆 crash 事件",
+      "section": "提報事項",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "antivirus",
+      "title": "防毒軟體病毒檢出處理",
+      "section": "提報事項",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "app-manager",
+      "title": "Applications Manager 監控異常處理",
+      "section": "ERP & QS應用系統問題分析與排除",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [
+        "0916.docx"
+      ],
+      "reason": "同一監控軟體資料異常的跨週修復進度；採 09/30 軟體更新處理中版本"
+    },
+    {
+      "id": "fl",
+      "title": "FL 電子商務逾時分析",
+      "section": "ERP & QS應用系統問題分析與排除",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "old-erp-12",
+      "title": "il/sh 逾時與 table lock",
+      "section": "ERP & QS應用系統問題分析與排除",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "old-erp-13",
+      "title": "ERP 串 AD SSL 異常",
+      "section": "ERP & QS應用系統問題分析與排除",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "old-erp-14",
+      "title": "DNS 主機維護設定",
+      "section": "ERP & QS應用系統問題分析與排除",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "old-erp-15",
+      "title": "電子商務對外 domain 設定",
+      "section": "ERP & QS應用系統問題分析與排除",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "old-erp-17",
+      "title": "GitLab Emails on push",
+      "section": "ERP & QS應用系統問題分析與排除",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-17",
+      "title": "09/21–09/25 DB/FT/HG/IB/OH/SO TABLE 異動",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-18",
+      "title": "09/20–09/26 資料減量 1,044,832 筆",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-19",
+      "title": "TBHGA101 異動",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-20",
+      "title": "R6 power supply 更換",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-21",
+      "title": "FS5600 STORAGE LOG 收集",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-22",
+      "title": "TBIPTDOK 資料減量異常",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-23",
+      "title": "ib 模組正式至測試同步",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-24",
+      "title": "st 模組正式至測試同步",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "new-db-25",
+      "title": "TBIBCDGS02 異動",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [],
+      "reason": "獨立工作或事件，保留原始內容"
+    },
+    {
+      "id": "old-db-20",
+      "title": "09/07–09/11 AA/HA/IN/PT/SO TABLE 異動",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重"
+    },
+    {
+      "id": "old-db-21",
+      "title": "09/06–09/12 資料減量 4,670,754 筆",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重"
+    },
+    {
+      "id": "old-db-22",
+      "title": "CDC 同步設定",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重"
+    },
+    {
+      "id": "old-db-23",
+      "title": "AIUSER WH 權限",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重"
+    },
+    {
+      "id": "old-db-24",
+      "title": "碳排資料正式環境彙整",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重"
+    },
+    {
+      "id": "old-db-25",
+      "title": "WP 資料正式環境同步",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重"
+    },
+    {
+      "id": "old-db-26",
+      "title": "SO 模組 DDL 異動",
+      "section": "DB2資料庫維護與管理",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重"
+    },
+    {
+      "id": "power-server",
+      "title": "電子商務主機汰舊換新專案",
+      "section": "專案工作",
+      "chosenFile": "0930.docx",
+      "chosenDate": "2026-09-30",
+      "replacedFiles": [
+        "0916.docx"
+      ],
+      "reason": "同一主機汰換專案，標題負責人差異不影響同一性；保留最新完整專案段落"
+    },
+    {
+      "id": "cdc-project",
+      "title": "建置異質資料庫即時移轉系統",
+      "section": "專案工作",
+      "chosenFile": "0916.docx",
+      "chosenDate": "2026-09-16",
+      "replacedFiles": [],
+      "reason": "09/16 獨有 CDC 專案，保留背景與 T2 移轉中進度"
+    }
+  ],
+  "plan": {
+    "sections": [
+      {
+        "id": "incidents",
+        "title": "提報事項",
+        "headings": []
+      },
+      {
+        "id": "routine",
+        "title": "例行維護",
+        "headings": [
+          {
+            "reportId": "r0",
+            "block": 11
+          },
+          {
+            "reportId": "r1",
+            "block": 10
+          }
+        ]
+      },
+      {
+        "id": "erp",
+        "title": "ERP & QS應用系統問題分析與排除",
+        "parentId": "routine",
+        "headings": [
+          {
+            "reportId": "r0",
+            "block": 12
+          },
+          {
+            "reportId": "r1",
+            "block": 11
+          }
+        ]
+      },
+      {
+        "id": "db",
+        "title": "DB2資料庫維護與管理",
+        "parentId": "routine",
+        "headings": [
+          {
+            "reportId": "r0",
+            "block": 16
+          },
+          {
+            "reportId": "r1",
+            "block": 19
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "專案工作",
+        "headings": [
+          {
+            "reportId": "r0",
+            "block": 28
+          },
+          {
+            "reportId": "r1",
+            "block": 29
+          }
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "firewall",
+        "title": "OA 防火牆 crash 事件",
+        "sectionId": "incidents",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "id": "antivirus",
+        "title": "防毒軟體病毒檢出處理",
+        "sectionId": "incidents",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "id": "app-manager",
+        "title": "Applications Manager 監控異常處理",
+        "sectionId": "erp",
+        "reason": "同一監控軟體資料異常的跨週修復進度；採 09/30 軟體更新處理中版本",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              13
+            ]
+          },
+          {
+            "reportId": "r1",
+            "blocks": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fl",
+        "title": "FL 電子商務逾時分析",
+        "sectionId": "erp",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-erp-12",
+        "title": "il/sh 逾時與 table lock",
+        "sectionId": "erp",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-erp-13",
+        "title": "ERP 串 AD SSL 異常",
+        "sectionId": "erp",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-erp-14",
+        "title": "DNS 主機維護設定",
+        "sectionId": "erp",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-erp-15",
+        "title": "電子商務對外 domain 設定",
+        "sectionId": "erp",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-erp-17",
+        "title": "GitLab Emails on push",
+        "sectionId": "erp",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-17",
+        "title": "09/21–09/25 DB/FT/HG/IB/OH/SO TABLE 異動",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-18",
+        "title": "09/20–09/26 資料減量 1,044,832 筆",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-19",
+        "title": "TBHGA101 異動",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-20",
+        "title": "R6 power supply 更換",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-21",
+        "title": "FS5600 STORAGE LOG 收集",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-22",
+        "title": "TBIPTDOK 資料減量異常",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-23",
+        "title": "ib 模組正式至測試同步",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              23
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-24",
+        "title": "st 模組正式至測試同步",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": "new-db-25",
+        "title": "TBIBCDGS02 異動",
+        "sectionId": "db",
+        "reason": "獨立工作或事件，保留原始內容",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-db-20",
+        "title": "09/07–09/11 AA/HA/IN/PT/SO TABLE 異動",
+        "sectionId": "db",
+        "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-db-21",
+        "title": "09/06–09/12 資料減量 4,670,754 筆",
+        "sectionId": "db",
+        "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-db-22",
+        "title": "CDC 同步設定",
+        "sectionId": "db",
+        "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              22
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-db-23",
+        "title": "AIUSER WH 權限",
+        "sectionId": "db",
+        "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              23
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-db-24",
+        "title": "碳排資料正式環境彙整",
+        "sectionId": "db",
+        "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-db-25",
+        "title": "WP 資料正式環境同步",
+        "sectionId": "db",
+        "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "id": "old-db-26",
+        "title": "SO 模組 DDL 異動",
+        "sectionId": "db",
+        "reason": "不同週期/對象的作業事件或舊檔獨有事項；不可僅因系統或關鍵字相同而去重",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": "power-server",
+        "title": "電子商務主機汰舊換新專案",
+        "sectionId": "projects",
+        "reason": "同一主機汰換專案，標題負責人差異不影響同一性；保留最新完整專案段落",
+        "versions": [
+          {
+            "reportId": "r0",
+            "blocks": [
+              29,
+              30,
+              31
+            ]
+          },
+          {
+            "reportId": "r1",
+            "blocks": [
+              30,
+              31,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdc-project",
+        "title": "建置異質資料庫即時移轉系統",
+        "sectionId": "projects",
+        "reason": "09/16 獨有 CDC 專案，保留背景與 T2 移轉中進度",
+        "versions": [
+          {
+            "reportId": "r1",
+            "blocks": [
+              34,
+              35,
+              36
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "reportId": "r0",
+        "block": 0
+      },
+      {
+        "reportId": "r1",
+        "block": 0
+      }
+    ]
+  },
+  "warnings": [
+    "保留範本頁面設定、樣式、圖片與頁首頁尾；新增內容會自然改變分頁，需用 Word 確認最終頁面。",
+    "目前使用指定範例的語意判讀重播資料，未呼叫外部 AI API。"
+  ]
+}

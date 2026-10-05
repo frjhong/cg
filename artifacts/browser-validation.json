@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 27,
+  "download": true,
+  "audit": true,
+  "dateOverride": true,
+  "mobileOverflow": false,
+  "delete": true,
+  "consoleErrors": []
+}
