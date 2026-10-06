@@ -24,13 +24,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 12762,
-      "sha256": "9be3d0162db68350c6e7d6fb988c74c052ee87db428567ca883e588db8cc93fb"
+      "bytes": 13279,
+      "sha256": "a775c02fe614e8f2e82ad8756961f8022356dc2f143485e3452a29dbc78077e5"
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 3513,
-      "sha256": "483376b5e21830d3782f742f3a5bc9bc9dfe7c788a860d12dc92d4aba60bfe88"
+      "bytes": 5025,
+      "sha256": "f84c79be82c084e5971c3e5b5817f53164ef7762836301958cebbc648b17975e"
     },
     {
       "path": "artifacts/0930.pdf",
@@ -53,19 +53,24 @@
       "sha256": "a30ce96bbf478a5e43b65ff9cd572c54e9e9616d400bce4566b194f883ecf45b"
     },
     {
+      "path": "artifacts/ai-recovery-smoke.json",
+      "bytes": 532,
+      "sha256": "bf313dceb43d340594516874fd98fc18464de3c2e087d66a18535be4f037476e"
+    },
+    {
       "path": "artifacts/browser-validation.json",
       "bytes": 163,
       "sha256": "dbf96cde8b1c30c78b581d6c26b4105f6800bd0a1209128e396e9dcc0470237f"
     },
     {
       "path": "artifacts/validation.json",
-      "bytes": 1441,
-      "sha256": "446f2d8b0c8dead525e218e4201cd21857780412253659d71cf212674706f28a"
+      "bytes": 1844,
+      "sha256": "ddfb1ac89f195292409a2d3c1c5257efd97e98fe1088a9f04342c8095aba414b"
     },
     {
       "path": "artifacts/weekly-report-1.0.0.jar",
-      "bytes": 22605246,
-      "sha256": "35506a83863a96b95b9d88b5007b5099741a7e50cb9e9a8dd81a51facfd442e2"
+      "bytes": 22607015,
+      "sha256": "f3969e6b44a9b721c71248b7685eb6849d974d123eb8610bc04b23ba60e064f2"
     },
     {
       "path": "artifacts/介面_手機.png",
@@ -90,7 +95,7 @@
     {
       "path": "artifacts/彙整週報_1150930.docx",
       "bytes": 121660,
-      "sha256": "1e361f341aff7716538efabe791ae68efae1ac93ebfd04c7e1613145185fda8b"
+      "sha256": "200f259835119c156ba627e1027049c3e4b27034625d5fc066e040993bcd12c9"
     },
     {
       "path": "artifacts/彙整週報_1150930.pdf",
@@ -159,13 +164,13 @@
     },
     {
       "path": "src/main/java/com/example/weekly/AiPlanner.java",
-      "bytes": 6277,
-      "sha256": "f5cc737226a851fc54f08f08a6bf379a0dd78453b907fde39d32d398027eaf99"
+      "bytes": 8852,
+      "sha256": "bc480fffec10fcb9862439271d830eb159c44164f7d3bd1965ecbe775166f2de"
     },
     {
       "path": "src/main/java/com/example/weekly/MergePlan.java",
-      "bytes": 3212,
-      "sha256": "44b9fad537b4330f71f895343e1797557c56da3169791edde57bba456618cde0"
+      "bytes": 4689,
+      "sha256": "d1511b568e1f019bd5442eae9689f7f1617ce769e103d96ad2eb4e43567751d5"
     },
     {
       "path": "src/main/java/com/example/weekly/MergeService.java",
@@ -211,6 +216,11 @@
       "path": "src/test/java/com/example/weekly/AiClientTest.java",
       "bytes": 2283,
       "sha256": "b8f017dd2723fd967bdac4e7f347e746d97c330c4db1a1a5f5d8859cbb01eb92"
+    },
+    {
+      "path": "src/test/java/com/example/weekly/AiPlanRecoveryTest.java",
+      "bytes": 6530,
+      "sha256": "715fe340078931574c8e3ba5ddabb4a62e8add8ee6541dff45ccd336e3e18749"
     },
     {
       "path": "src/test/java/com/example/weekly/ApiTest.java",

@@ -75,6 +75,8 @@ $env:AI_BASE_URL = 'https://api.openai.com/v1'
 
 `ai` 模式會清除啟動程序的 `AI_FIXTURE`，避免先前範例設定影響正式處理；未設定金鑰時直接提示並退出。金鑰只由伺服器環境變數讀取，不送到瀏覽器。週報文字會傳送至指定的 AI API，原始 DOCX 二進位檔與圖片不直接送出。
 
+AI 分組計畫在產檔前會檢查 ID、章節引用、版本與每個原始正文區塊的完整性。首次計畫不合格時，伺服器會回送具體錯誤，要求 AI 重新產生完整計畫，合計最多 3 次請求；每次都必須通過相同檢查。三次仍不合格就停止並顯示最後的具體錯誤，不會刪除缺漏事項或自動切換為範例重播。HTTP 金鑰／模型錯誤不會觸發此修正流程。
+
 ## 其他啟動方式
 
 透過 Maven 啟動開發服務（先設定金鑰，並清除重播設定）：
@@ -121,7 +123,7 @@ Maven 的依賴下載代理另由 Maven `settings.xml` 管理，例如 `./mvnw -
 - 彙整後所有範本可見內容與格式保留；段落屬性、字型、粗體、縮排、行距、頁面設定與原始編號定義均檢查。移除舊的自動分頁快取 `lastRenderedPageBreak`，讓 Word 重新排版；移除文件尾端不含任何內容／控制元素的純空白段落，避免新增內容後擠出尾端空白頁，並記錄移除數量。手動分頁與段落間留白保留。舊檔 DB2 條目接到範本的編號 36；新增專案接到專案編號，進度子清單另匯入編號定義。
 - 測試直接讀取原始 Word，檢查勝出內容、舊進度移除、範本資源、日期、惡意 XML、AI 遺漏／重複引用、HTTP AI 相容協定、上傳、下载、稽核與刪除；另測資源關聯和樣式衝突。
 
-13 項 JUnit 測試已通過；完整原始驗證見 [VALIDATION.md](VALIDATION.md)。產物位於 `artifacts/`，包括彙整 Word、比對 JSON、排版 PDF、截圖與隨附 JAR。`./mvnw test`（Windows 用 `.\mvnw.cmd test`）會重新以真實範例產生 Word 與比對 JSON；PDF 與截圖不會由 Maven 測試自動更新。
+24 項 JUnit 測試已通過；完整原始驗證見 [VALIDATION.md](VALIDATION.md)。產物位於 `artifacts/`，包括彙整 Word、比對 JSON、排版 PDF、截圖與隨附 JAR。`./mvnw test`（Windows 用 `.\mvnw.cmd test`）會重新以真實範例產生 Word 與比對 JSON；PDF 與截圖不會由 Maven 測試自動更新。
 
 專案結構：
 
@@ -133,7 +135,7 @@ weekly-report/
 ├── scripts/run.sh / run.cmd   AI 與範例重播啟動腳本
 ├── src/main/java/             Word 解析、AI 分組、格式匯入與 API
 ├── src/main/resources/        服務設定與繁體中文網頁
-├── src/test/                  13 項測試、兩份 Word 範例與語意計畫
+├── src/test/                  24 項測試、兩份 Word 範例與語意計畫
 ├── target/                    本機建置產物（不隨專案包附送）
 ├── artifacts/                 隨附 JAR、彙整檔與驗證產物
 └── VALIDATION.md              範例測試的證據與限制
@@ -172,7 +174,7 @@ curl -F 'files=@src/test/resources/samples/0916.docx' \
 | 「尚未設定 AI API」 | 設定 `AI_API_KEY` 後重啟；要試用提供範例則執行 `run.sh demo` / `run.cmd demo` |
 | 重播模式拒絕其他文件 | 重播只支援指定原始範例，改用 `ai` 模式並設定金鑰 |
 | AI 回應 HTTP 401 / 403 / 404 | 檢查金鑰權限、API 基底網址及模型名稱；`AI_BASE_URL` 不要包含 `/chat/completions` |
-| 「AI 遺漏內容」或計畫驗證失敗 | 程式已停止產檔以避免丟失正文；重新嘗試或調整支援 JSON 輸出的模型，並檢查文件結構 |
+| 「AI 遺漏內容」或計畫驗證失敗 | 新版自動回送具體驗證錯誤並要求 AI 修正，最多 3 次；仍失敗則停止產檔。依最後錯誤檢查模型的 JSON 支援及文件結構，更新後需重新啟動新版 JAR |
 | 下載回傳 404 | 結果已刪除、過期或服務已重啟，請重新上傳彙整 |
 | Word 與 PDF 換行不同 | 安裝原週報使用的字型；保留格式不等於不同排版引擎像素一致 |
 

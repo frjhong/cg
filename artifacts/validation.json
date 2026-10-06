@@ -1,6 +1,18 @@
 {
   "tests": [
     {
+      "name": "com.example.weekly.AiClientTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "com.example.weekly.AiPlanRecoveryTest",
+      "tests": "11",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
       "name": "com.example.weekly.ApiTest",
       "tests": "2",
       "failures": "0",
@@ -9,12 +21,6 @@
     {
       "name": "com.example.weekly.ResourceImportTest",
       "tests": "4",
-      "failures": "0",
-      "errors": "0"
-    },
-    {
-      "name": "com.example.weekly.AiClientTest",
-      "tests": "2",
       "failures": "0",
       "errors": "0"
     },
@@ -46,7 +52,7 @@
   "renderer": "LibreOffice 25.2 with Noto Serif CJK TC font substitution",
   "downloadMatchesOutput": true,
   "externalAiCalled": false,
-  "wordSha256": "1e361f341aff7716538efabe791ae68efae1ac93ebfd04c7e1613145185fda8b",
+  "wordSha256": "200f259835119c156ba627e1027049c3e4b27034625d5fc066e040993bcd12c9",
   "wrapperValidation": {
     "wrapperVersion": "3.3.4",
     "mavenVersion": "3.9.9",
@@ -57,5 +63,15 @@
     "aiScriptClearsFixture": true,
     "externalAiCalled": false,
     "windowsScriptExecuted": false
+  },
+  "aiPlanRecovery": {
+    "date": "2026-10-06",
+    "maxAttempts": 3,
+    "faultCases": 9,
+    "recoveryTestsPassed": 11,
+    "usesOriginalWordSamples": true,
+    "externalAiCalled": false,
+    "packagedJarSmokePassed": true,
+    "sampleOutputPartsUnchanged": true
   }
 }

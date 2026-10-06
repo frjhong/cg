@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "mode": "live-ai",
+  "provider": "local mock API",
+  "externalAiCalled": false,
+  "originalSamples": [
+    "0916.docx",
+    "0930.docx"
+  ],
+  "aiRequests": 2,
+  "firstPlanRejected": "duplicate item ID",
+  "feedbackIncluded": true,
+  "items": 27,
+  "duplicateGroups": 2,
+  "oldOnlyItems": 14,
+  "wordDownloaded": true,
+  "wordBytes": 121660,
+  "wordSha256": "95d5e070b742d2925c324d43f3117fd7548e7a35297de801e876c87d44eccfc9",
+  "jarSha256": "f3969e6b44a9b721c71248b7685eb6849d974d123eb8610bc04b23ba60e064f2"
+}
